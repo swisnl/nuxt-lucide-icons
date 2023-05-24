@@ -1,0 +1,48 @@
+{
+  "name": "nuxt-lucide-icons",
+  "version": "1.0.0",
+  "description": "This Nuxt module makes working with Lucide icons a breeze!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swisnl/nuxt-lucide-icons.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.5.1",
+    "lucide-vue-next": "^0.220.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxt/module-builder": "^0.3.1",
+    "@nuxt/schema": "^3.5.1",
+    "@nuxt/test-utils": "^3.5.1",
+    "@types/node": "^18",
+    "changelogen": "^0.5.3",
+    "eslint": "^8.41.0",
+    "nuxt": "^3.5.1",
+    "vitest": "^0.31.1"
+  }
+}
