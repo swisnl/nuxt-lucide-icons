@@ -10,7 +10,7 @@ export default defineNuxtModule<LucideModuleOptions>({
     name: 'lucide',
     configKey: 'lucide',
     compatibility: {
-      nuxt: '^3.0.0',
+      nuxt: '^3.3.0',
     },
   },
 
