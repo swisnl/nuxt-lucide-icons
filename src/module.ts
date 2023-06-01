@@ -21,6 +21,8 @@ export default defineNuxtModule<LucideModuleOptions>({
   setup(options: LucideModuleOptions) {
     Object.keys(icons)
       .filter((icon) => icon !== 'default')
+      .filter((icon) => !icon.startsWith('Lucide'))
+      .filter((icon) => !icon.endsWith('Icon'))
       .forEach((icon) =>
         addComponent({
           name: options.namePrefix + icon,
