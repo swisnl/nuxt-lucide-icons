@@ -1,3 +1,3 @@
 <template>
-  <div><LucideGithub /></div>
+  <div><LucideArrowDownAz /></div>
 </template>
