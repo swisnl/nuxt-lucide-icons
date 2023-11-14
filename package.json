@@ -33,7 +33,8 @@
   "dependencies": {
     "@nuxt/kit": "^3.5.1",
     "lucide-vue-next": "^0.x",
-    "pathe": "^1.1.0"
+    "pathe": "^1.1.0",
+    "scule": "^1.0.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",

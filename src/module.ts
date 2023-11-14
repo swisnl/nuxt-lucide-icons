@@ -1,5 +1,6 @@
 import { addComponent, createResolver, defineNuxtModule } from '@nuxt/kit';
 import { join } from 'pathe';
+import { kebabCase } from 'scule';
 import * as icons from 'lucide-vue-next';
 
 export interface LucideModuleOptions {
@@ -27,16 +28,24 @@ export default defineNuxtModule<LucideModuleOptions>({
     const entrypoint = await resolvePath('lucide-vue-next') // node_modules/lucide-vue-next/dist/cjs/lucide-vue-next.js
     const root = join(entrypoint, '../../..') // node_modules/lucide-vue-next
 
+    // Some icons are registered multiple times, but with different casing (e.g. ArrowDownAz/ArrowDownAZ
+    // and Axis3d/Axis3D) so we increase priority to avoid a warning from Nuxt.
+    const priorities = new Map<string, number>()
+
     Object.keys(icons)
       .filter((icon) => icon !== 'default')
       .filter((icon) => !icon.startsWith('Lucide'))
       .filter((icon) => !icon.endsWith('Icon'))
-      .forEach((icon) =>
+      .forEach((icon) => {
+        const key = kebabCase(icon)
+        const priority = (priorities.get(key) ?? -1) + 1;
         addComponent({
           name: options.namePrefix + icon,
           export: icon,
           filePath: root,
+          priority: priority,
         })
-      );
+        priorities.set(key, priority)
+      });
   },
 });
