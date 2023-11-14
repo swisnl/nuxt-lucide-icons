@@ -21,10 +21,10 @@
     "dist"
   ],
   "scripts": {
-    "prepack": "nuxt-module-build",
+    "prepack": "nuxt-module-build build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
     "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
     "lint": "eslint .",
     "test": "vitest run",
@@ -37,14 +37,14 @@
     "scule": "^1.0.0"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.1.1",
-    "@nuxt/module-builder": "^0.3.1",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxt/module-builder": "^0.5.3",
     "@nuxt/schema": "^3.5.1",
     "@nuxt/test-utils": "^3.5.1",
     "@types/node": "^18",
-    "changelogen": "^0.5.3",
-    "eslint": "^8.41.0",
+    "changelogen": "^0.5.5",
+    "eslint": "^8.53.0",
     "nuxt": "^3.5.1",
-    "vitest": "^0.31.1"
+    "vitest": "^0.33.0"
   }
 }
