@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.0.3
+
+[compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.2...v1.0.3)
+
+### 🩹 Fixes
+
+- Increase priority for duplicate icons ([87b93ba](https://github.com/swisnl/nuxt-lucide-icons/commit/87b93ba))
+
+### 📦 Build
+
+- Update dev dependencies ([962aa10](https://github.com/swisnl/nuxt-lucide-icons/commit/962aa10))
+
+### ❤️ Contributors
+
+- Jasper Zonneveld ([@JaZo](http://github.com/JaZo))
+
 ## v1.0.2
 
 [compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.1...v1.0.2)
