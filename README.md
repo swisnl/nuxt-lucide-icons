@@ -3,6 +3,8 @@
 [![npm version][ico-version]][link-version]
 [![License][ico-license]](LICENSE.md)
 [![Buy us a tree][ico-treeware]][link-treeware]
+[![Code style][ico-github-actions-codestyle]][link-github-actions-codestyle]
+[![Tests][ico-github-actions-tests]][link-github-actions-tests]
 [![npm downloads][ico-downloads]][link-downloads]
 [![Made by SWIS][ico-swis]][link-swis]
 [![Nuxt][ico-nuxt]][link-nuxt]
@@ -113,6 +115,7 @@ If you discover any security related issues, please email security@swis.nl inste
 ## Credits
 
 - [Jasper Zonneveld][link-author]
+- [Anthony Schuijlenburg][link-contributor-anthony]
 - [All Contributors][link-contributors]
 
 ## License
@@ -128,14 +131,19 @@ This package is [Treeware](https://treeware.earth). If you use it in production,
 [ico-version]: https://img.shields.io/npm/v/nuxt-lucide-icons/latest.svg?style=flat-square
 [ico-license]: https://img.shields.io/npm/l/nuxt-lucide-icons.svg?style=flat-square
 [ico-treeware]: https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen.svg?style=flat-square
+[ico-github-actions-codestyle]: https://img.shields.io/github/actions/workflow/status/swisnl/nuxt-lucide-icons/codestyle.yaml?label=codestyle&branch=main&style=flat-square
+[ico-github-actions-tests]: https://img.shields.io/github/actions/workflow/status/swisnl/nuxt-lucide-icons/tests.yaml?label=tests&branch=main&style=flat-square
 [ico-downloads]: https://img.shields.io/npm/dm/nuxt-lucide-icons.svg?style=flat-square
 [ico-swis]: https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%230737A9.svg?style=flat-square
 [ico-nuxt]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js&style=flat-square
 
 [link-version]: https://npmjs.com/package/nuxt-lucide-icons
+[link-github-actions-codestyle]: https://github.com/swisnl/nuxt-lucide-icons/actions/workflows/codestyle.yaml
+[link-github-actions-tests]: https://github.com/swisnl/nuxt-lucide-icons/actions/workflows/tests.yaml
 [link-downloads]: https://npmjs.com/package/nuxt-lucide-icons
 [link-treeware]: https://plant.treeware.earth/swisnl/nuxt-lucide-icons
 [link-author]: https://github.com/JaZo
+[link-contributor-anthony]: https://github.com/AnthonySchuijlenburg
 [link-contributors]: ../../contributors
 [link-swis]: https://www.swis.nl
 [link-nuxt]: https://nuxt.com
