@@ -37,4 +37,4 @@ jobs:
         run: npm run dev:build
 
       - name: Execute tests
-        run: npm run test:unit
+        run: npm run test
