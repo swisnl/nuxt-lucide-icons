@@ -58,6 +58,8 @@ export default defineNuxtConfig({
 </template>
 ```
 
+**Note:** Make sure to disable your ad-blocker for local development. Some ad-blockers, such as uBlock Origin, block all subsequent requests when they detect the fingerprint icon. For more information, refer to the following [issue](https://github.com/swisnl/nuxt-lucide-icons/issues/3).
+
 ## Configuration
 
 Don't like the default component name prefix? You can change it in `nuxt.config.ts`:
