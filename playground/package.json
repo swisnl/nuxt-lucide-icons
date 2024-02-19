@@ -1,4 +1,13 @@
 {
   "private": true,
-  "name": "nuxt-lucide-icons-playground"
+  "name": "nuxt-lucide-icons-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "nuxt": "latest"
+  }
 }

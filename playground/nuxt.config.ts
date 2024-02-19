@@ -3,4 +3,5 @@ export default defineNuxtConfig({
   lucide: {
     namePrefix: 'Lucide',
   },
+  devtools: { enabled: true },
 })
