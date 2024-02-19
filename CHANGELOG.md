@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v1.0.4
+
+[compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.3...v1.0.4)
+
+### 📖 Documentation
+
+- **readme:** Add a note to prevent issues with ad-blockers and this package ([6fc0530](https://github.com/swisnl/nuxt-lucide-icons/commit/6fc0530))
+
+### 🏡 Chore
+
+- Test bundler module resolution ([10acbe3](https://github.com/swisnl/nuxt-lucide-icons/commit/10acbe3))
+- Update skeleton files ([cf6ae70](https://github.com/swisnl/nuxt-lucide-icons/commit/cf6ae70))
+
+### 🤖 CI
+
+- Add GitHub workflows
+
+### ❤️ Contributors
+
+- Jasper Zonneveld ([@JaZo](http://github.com/JaZo))
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+- Anthony Schuijlenburg ([@AnthonySchuijlenburg](http://github.com/AnthonySchuijlenburg))
+
 ## v1.0.3
 
 [compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.2...v1.0.3)
