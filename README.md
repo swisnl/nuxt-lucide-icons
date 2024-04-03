@@ -27,14 +27,7 @@ This Nuxt module makes working with [Lucide](https://lucide.dev/) icons a breeze
 1. Add `nuxt-lucide-icons` dependency to your project
 
 ```bash
-# Using pnpm
-pnpm add -D nuxt-lucide-icons
-
-# Using yarn
-yarn add --dev nuxt-lucide-icons
-
-# Using npm
-npm install --save-dev nuxt-lucide-icons
+npx nuxi@latest module add lucide-icons
 ```
 
 2. Add `nuxt-lucide-icons` to the `modules` section of `nuxt.config.ts`
