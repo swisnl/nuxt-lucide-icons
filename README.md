@@ -24,23 +24,13 @@ This Nuxt module makes working with [Lucide](https://lucide.dev/) icons a breeze
 
 ## Quick Setup
 
-1. Add `nuxt-lucide-icons` dependency to your project
+Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi@latest module add lucide-icons
+npx nuxi module add lucide-icons
 ```
 
-2. Add `nuxt-lucide-icons` to the `modules` section of `nuxt.config.ts`
-
-```ts
-export default defineNuxtConfig({
-  modules: [
-    'nuxt-lucide-icons'
-  ]
-})
-```
-
-3. That's it! You can now use [all Lucide icons](https://lucide.dev/icons) in your Nuxt app ✨
+That's it! You can now use [all Lucide icons](https://lucide.dev/icons) in your Nuxt app ✨
   
 ```vue
 <template>
