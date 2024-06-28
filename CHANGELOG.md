@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v1.0.5
+
+[compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.4...v1.0.5)
+
+### 📖 Documentation
+
+- Use new `nuxi module add` command in installation ([a52a180](https://github.com/swisnl/nuxt-lucide-icons/commit/a52a180))
+- Update quick setup section ([a6fc512](https://github.com/swisnl/nuxt-lucide-icons/commit/a6fc512))
+- Update contributing section ([dbc6c5f](https://github.com/swisnl/nuxt-lucide-icons/commit/dbc6c5f))
+- Add change log section ([3f371b8](https://github.com/swisnl/nuxt-lucide-icons/commit/3f371b8))
+- Add missing CODE_OF_CONDUCT.md and CONTRIBUTING.md ([927334c](https://github.com/swisnl/nuxt-lucide-icons/commit/927334c))
+
+### 📦 Build
+
+- Add fix script ([e749aee](https://github.com/swisnl/nuxt-lucide-icons/commit/e749aee))
+
+### 🏡 Chore
+
+- Indicate compatibility with new v4 major ([0a5d2a2](https://github.com/swisnl/nuxt-lucide-icons/commit/0a5d2a2))
+
+### ❤️ Contributors
+
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+- Jasper Zonneveld ([@JaZo](http://github.com/JaZo))
+
 ## v1.0.4
 
 [compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.3...v1.0.4)
