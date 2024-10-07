@@ -27,7 +27,7 @@ This Nuxt module makes working with [Lucide](https://lucide.dev/) icons a breeze
 Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add lucide-icons
+npx nuxi module add nuxt-lucide-icons
 ```
 
 That's it! You can now use [all Lucide icons](https://lucide.dev/icons) in your Nuxt app ✨
