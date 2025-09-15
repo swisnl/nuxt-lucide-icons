@@ -31,7 +31,7 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.5.1||^4.1.2",
+    "@nuxt/kit": "^4.1.0",
     "lucide-vue-next": "^0.x",
     "pathe": "^1.1.0",
     "scule": "^1.0.0"
@@ -45,7 +45,7 @@
     "@types/node": "^24.4.0",
     "changelogen": "^0.6.2",
     "eslint": "^9.35.0",
-    "nuxt": "^3.19.2||^4.1.2",
+    "nuxt": "^4.1.0",
     "vitest": "^3.2.4"
   }
 }
