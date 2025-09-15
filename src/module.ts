@@ -1,10 +1,10 @@
-import { addComponent, createResolver, defineNuxtModule } from '@nuxt/kit';
-import { join } from 'pathe';
-import { kebabCase } from 'scule';
-import * as icons from 'lucide-vue-next';
+import { addComponent, createResolver, defineNuxtModule } from '@nuxt/kit'
+import { join } from 'pathe'
+import { kebabCase } from 'scule'
+import * as icons from 'lucide-vue-next'
 
 export interface LucideModuleOptions {
-  namePrefix: string;
+  namePrefix: string
 }
 
 export default defineNuxtModule<LucideModuleOptions>({
@@ -33,12 +33,12 @@ export default defineNuxtModule<LucideModuleOptions>({
     const priorities = new Map<string, number>()
 
     Object.keys(icons)
-      .filter((icon) => icon !== 'default')
-      .filter((icon) => !icon.startsWith('Lucide'))
-      .filter((icon) => !icon.endsWith('Icon'))
+      .filter(icon => icon !== 'default')
+      .filter(icon => !icon.startsWith('Lucide'))
+      .filter(icon => !icon.endsWith('Icon'))
       .forEach((icon) => {
         const key = kebabCase(icon)
-        const priority = (priorities.get(key) ?? -1) + 1;
+        const priority = (priorities.get(key) ?? -1) + 1
         addComponent({
           name: options.namePrefix + icon,
           export: icon,
@@ -46,6 +46,6 @@ export default defineNuxtModule<LucideModuleOptions>({
           priority: priority,
         })
         priorities.set(key, priority)
-      });
+      })
   },
-});
+})
