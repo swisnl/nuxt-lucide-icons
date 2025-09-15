@@ -1,6 +1,25 @@
 # Changelog
 
 
+## v2.0.0
+
+[compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.5...v2.0.0)
+
+### 📦 Build
+
+- Add support for Nuxt 4 ([e9123f5](https://github.com/swisnl/nuxt-lucide-icons/commit/e9123f5))
+- Fix exports in package.json ([52a1d9c](https://github.com/swisnl/nuxt-lucide-icons/commit/52a1d9c))
+- ⚠️  Drop support for Nuxt 3 ([2945c34](https://github.com/swisnl/nuxt-lucide-icons/commit/2945c34))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Drop support for Nuxt 3 ([2945c34](https://github.com/swisnl/nuxt-lucide-icons/commit/2945c34))
+
+### ❤️ Contributors
+
+- Jasper Zonneveld ([@JaZo](https://github.com/JaZo))
+- Stan Hogenboom <shogenboom@swis.nl>
+
 ## v1.0.5
 
 [compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.4...v1.0.5)
