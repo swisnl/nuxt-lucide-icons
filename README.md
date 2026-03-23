@@ -13,7 +13,7 @@ This Nuxt module makes working with [Lucide](https://lucide.dev/) icons a breeze
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 - [🏀 &nbsp;Online playground](https://stackblitz.com/github/swisnl/nuxt-lucide-icons?file=playground%2Fapp.vue)
-- [📖 &nbsp;Documentation](https://lucide.dev/docs/lucide-vue-next)
+- [📖 &nbsp;Documentation](https://lucide.dev/guide/vue)
 - [🖌️ &nbsp;Available icons](https://lucide.dev/icons)
 
 ## Features
@@ -31,7 +31,7 @@ npx nuxi module add lucide-icons
 ```
 
 That's it! You can now use [all Lucide icons](https://lucide.dev/icons) in your Nuxt app ✨
-  
+
 ```vue
 <template>
   <div>
@@ -73,23 +73,23 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
   ```bash
   # Install dependencies
   npm install
-  
+
   # Generate type stubs
   npm run dev:prepare
-  
+
   # Develop with the playground
   npm run dev
-  
+
   # Build the playground
   npm run dev:build
-  
+
   # Run ESLint
   npm run lint
-  
+
   # Run Vitest
   npm run test
   npm run test:watch
-  
+
   # Release new version
   npm run release
   ```
