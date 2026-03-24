@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v2.1.0
+
+[compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v2.0.0...v2.1.0)
+
+### 📖 Documentation
+
+- Update README.md documentation link ([d16d0a0](https://github.com/swisnl/nuxt-lucide-icons/commit/d16d0a0))
+
+### 🏡 Chore
+
+- Update and replace lucide-vue-next with @lucide/vue (v1) ([c788f29](https://github.com/swisnl/nuxt-lucide-icons/commit/c788f29))
+- Replace brand icons ([5f34b29](https://github.com/swisnl/nuxt-lucide-icons/commit/5f34b29))
+
+### ❤️ Contributors
+
+- Jasper Zonneveld ([@JaZo](https://github.com/JaZo))
+- OrigamiKing3612 ([@OrigamiKing3612](https://github.com/OrigamiKing3612))
+
 ## v2.0.0
 
 [compare changes](https://github.com/swisnl/nuxt-lucide-icons/compare/v1.0.5...v2.0.0)
