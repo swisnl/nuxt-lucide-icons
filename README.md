@@ -38,7 +38,7 @@ That's it! You can now use [all Lucide icons](https://lucide.dev/icons) in your 
     <h1>Nuxt Lucide Icons</h1>
     <LucideRocket />
     <LucideFolderGit2 color="red" />
-    <LucideGithub :size="32" />
+    <LucideStar :size="32" />
   </div>
 </template>
 ```
