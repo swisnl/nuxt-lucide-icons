@@ -1,7 +1,7 @@
 import { addComponent, createResolver, defineNuxtModule } from '@nuxt/kit'
 import { join } from 'pathe'
 import { kebabCase } from 'scule'
-import * as icons from 'lucide-vue-next'
+import * as icons from '@lucide/vue'
 
 export interface LucideModuleOptions {
   namePrefix: string
@@ -21,12 +21,12 @@ export default defineNuxtModule<LucideModuleOptions>({
   },
 
   async setup(options: LucideModuleOptions) {
-    // Resolve path to lucide-vue-next.
+    // Resolve path to @lucide/vue.
     // The dependency is resolved relative to the location of this file, so that package managers like pnpm
     // without shamefully hoisting, or yarn with Plug'n'play enabled, also work.
     const { resolvePath } = createResolver(import.meta.url)
-    const entrypoint = await resolvePath('lucide-vue-next') // node_modules/lucide-vue-next/dist/cjs/lucide-vue-next.js
-    const root = join(entrypoint, '../../..') // node_modules/lucide-vue-next
+    const entrypoint = await resolvePath('@lucide/vue') // node_modules/@lucide/vue/dist/cjs/lucide-vue.js
+    const root = join(entrypoint, '../../..') // node_modules/@lucide/vue
 
     // Some icons are registered multiple times, but with different casing (e.g. ArrowDownAz/ArrowDownAZ
     // and Axis3d/Axis3D) so we increase priority to avoid a warning from Nuxt.
